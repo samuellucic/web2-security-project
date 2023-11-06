@@ -12,6 +12,9 @@ const instructions = (
     <br />
     Pokušajte se prijaviti s krivim korisničkim imenom ili krivom lozinkom.
     <br />
+    <b>Identifikator sjednice</b> možete pratiti u Chrome DevTools -&gt;
+    Aplication -&gt; Cookies
+    <br />
     Korisničko ime:{' '}
     <b>
       <i>korisnik_s_ovlastima</i>

@@ -103,11 +103,13 @@ export const SQLInjection = () => {
         <div className={styles['button-container']}>
           <button type="submit">Dohvati račune</button>
         </div>
-        {results?.map((result, index) => (
-          <p key={index} className={styles.message}>
-            {result}
-          </p>
-        ))}
+        <div className={styles['results-container']}>
+          {results?.map((result, index) => (
+            <p key={index} className={styles.message}>
+              {result}
+            </p>
+          ))}
+        </div>
       </form>
     </Vulnerability>
   );
