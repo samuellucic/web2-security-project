@@ -1,0 +1,36 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.error {
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--red-main);
+}
+
+.logged-in {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
